@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int sum = 0;
+    for (int i = 1; i <= 5; i++) {
+        int temp = i * 2;
+        sum += temp;
+    }
+    printf("Sum: %d\n", sum);
+    return 0;
+}
